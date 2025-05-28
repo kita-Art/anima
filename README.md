@@ -1,6 +1,3 @@
-Yes, you got it! Here's the entire README.md content, formatted to show only the markdown code itself, exactly as you'd paste it into your GitHub README.md file.
-
-Markdown
 
 # 🚀 도형 로딩 애니메이션 (Shape Loading Animation)
 
