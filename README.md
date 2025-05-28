@@ -1,17 +1,27 @@
+Yes, you got it! Here's the entire README.md content, formatted to show only the markdown code itself, exactly as you'd paste it into your GitHub README.md file.
 
+Markdown
 
-🚀 도형 로딩 애니메이션 (Shape Loading Animation)
+# 🚀 도형 로딩 애니메이션 (Shape Loading Animation)
+
 이 프로젝트는 HTML과 CSS만을 사용하여 구현된 간단하면서도 시각적으로 매력적인 로딩 애니메이션입니다. 세 개의 원형 요소가 순차적으로 커지고 작아지며 사라지는 효과를 통해 사용자에게 로딩 중임을 직관적으로 알립니다.
 
-![bandicam-2025-05-29-02-38-22-620](https://github.com/user-attachments/assets/72e9bb0b-e0f8-4d94-8ad8-c14daad8443c)
+![도형 로딩 애니메이션 미리보기](https://github.com/user-attachments/assets/72e9bb0b-e0f8-4d94-8ad8-c14daad8443c)
 
-📁 파일 구조
-index.html: 애니메이션을 표시할 웹 페이지의 기본 HTML 구조입니다.
-style.css: 애니메이션의 시각적 스타일과 동작을 정의하는 CSS 코드입니다.
-✨ 코드 분석
-index.html
-HTML
+---
 
+## 📁 파일 구조
+
+* `index.html`: 애니메이션을 표시할 웹 페이지의 기본 HTML 구조입니다.
+* `style.css`: 애니메이션의 시각적 스타일과 동작을 정의하는 CSS 코드입니다.
+
+---
+
+## ✨ 코드 분석
+
+### `index.html`
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +50,7 @@ style.css
 CSS
 
 /* Google Web Font */
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('[https://fonts.googleapis.com/css?family=Raleway&display=swap](https://fonts.googleapis.com/css?family=Raleway&display=swap)');
 
 /* Basic Styles */
 body {
@@ -109,5 +119,5 @@ background-color: 각 <span>에 다른 색상을 부여합니다.
 0%, 100%: 애니메이션 시작과 끝 지점에서는 원이 작고(scale(0.5)) 투명하게(opacity: 0) 나타납니다.
 50%: 애니메이션 중간 지점에서는 원이 커지고(scale(1.2)) 불투명하게(opacity: 1) 보입니다.
 💡 작동 방식 (요약)
-이 애니메이션은 세 개의 원형 <span> 요소를 활용합니다. 각 원은 loading 애니메이션에 따라 점점 커지면서 선명해졌다가 다시 작아지면서 투명해지는 과정을 반복합니다. 이때, 각 원에 **animation-delay**를 다르게 적용하여 순차적으로 애니메이션이 시작되도록 합니다. 이 시간차 덕분에 원들이 마치 물결치듯이 나타나고 사라지는 부드러운 로딩 효과가 연출됩니다.
+이 애니메이션은 세 개의 원형 <span> 요소를 활용합니다. 각 원은 loading 애니메이션에 따라 점점 커지면서 선명해졌다가 다시 작아지면서 투명해지는 과정을 반복합니다. 이때, 각 원에 animation-delay를 다르게 적용하여 순차적으로 애니메이션이 시작되도록 합니다. 이 시간차 덕분에 원들이 마치 물결치듯이 나타나고 사라지는 부드러운 로딩 효과가 연출됩니다.
 
